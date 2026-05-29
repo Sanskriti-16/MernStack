@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Card</title>
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet"
+    href="++"/>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background:#e9ecef;
+    }
+
+    .card{
+      width:320px;
+      background:#f1f1f1;
+      padding:25px;
+      border-radius:12px;
+      text-align:center;
+      box-shadow:8px 8px 15px #d1d1d1,
+                 -8px -8px 15px #ffffff;
+    }
+
+    .top-icons{
+      display:flex;
+      justify-content:space-between;
+      margin-bottom:15px;
+      color:#555;
+      font-size:18px;
+    }
+
+    .profile-img{
+      width:120px;
+      height:120px;
+      border-radius:50%;
+      object-fit:cover;
+      padding:6px;
+      background:#f1f1f1;
+      box-shadow:5px 5px 10px #d1d1d1,
+                 -5px -5px 10px #ffffff;
+    }
+
+    h2{
+      margin-top:15px;
+      color:#333;
+    }
+
+    .role{
+      color:#666;
+      margin-top:5px;
+      font-size:16px;
+    }
+
+    .social-icons{
+      margin:20px 0;
+      display:flex;
+      justify-content:center;
+      gap:15px;
+    }
+
+    .social-icons a{
+      width:40px;
+      height:40px;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:50%;
+      text-decoration:none;
+      background:#f1f1f1;
+      box-shadow:5px 5px 10px #d1d1d1,
+                 -5px -5px 10px #ffffff;
+      color:#555;
+      font-size:18px;
+    }
+
+    .buttons{
+      display:flex;
+      justify-content:space-between;
+      margin:20px 0;
+      gap:10px;
+    }
+
+    .buttons button{
+      flex:1;
+      padding:12px;
+      border:none;
+      border-radius:8px;
+      background:#f1f1f1;
+      font-size:16px;
+      cursor:pointer;
+      box-shadow:5px 5px 10px #d1d1d1,
+                 -5px -5px 10px #ffffff;
+      transition:0.3s;
+    }
+
+    .buttons button:hover{
+      transform:scale(1.03);
+    }
+
+    .stats{
+      display:flex;
+      justify-content:space-around;
+      margin-top:20px;
+      color:#555;
+      font-size:16px;
+    }
+
+    .stats div{
+      display:flex;
+      align-items:center;
+      gap:5px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+
+    <div class="top-icons">
+      <i class="fa-solid fa-arrow-left"></i>
+      <i class="fa-solid fa-ellipsis-vertical"></i>
+    </div>
+
+    <img src=""
+         alt="profile"
+         class="profile-img">
+
+    <h2>CodingNepal</h2>
+    <p class="role">Designer & Developer</p>
+
+    <div class="social-icons">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+    </div>
+
+    <div class="buttons">
+      <button>Message</button>
+      <button>Subscribe</button>
+    </div>
+
+    <div class="stats">
+      <div><i class="fa-regular fa-heart"></i> 20.4k</div>
+      <div><i class="fa-regular fa-comment"></i> 14.3k</div>
+      <div><i class="fa-solid fa-share"></i> 12.8k</div>
+    </div>
+
+  </div>
+
+</body>
+</html>

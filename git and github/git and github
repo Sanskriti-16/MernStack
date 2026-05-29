@@ -1,0 +1,38 @@
+three stages of git 
+1.working directory
+2.staging directory
+3.local repository
+
+1.Configuring User Details: git config (name and email)
+
+git config --global user.name "developer
+
+git config --global user.email "developer@example.com"
+
+//(you have to make many files under it)
+1.git init
+2.git add.(to add file name)
+3.git status
+4.git commit -m "initial commit"
+5.git satus 
+6.git rm --cached (added file name)
+7.git status (to check)
+8.git restore(to checknuntracked or not the re add it will come without any changes)
+9.git commit -m "modified"(added files)
+10.then again (git status) to check
+11.in the level git init write this command (rm -rf.git) to remove git from tracking
+git log(shows all the commits all detailes of time ,date)
+add new file now that file will be untracked
+
+//do it now in the git hub create repository and add new repository give the file name
+git branch -M main() //that (master) changes to main
+git remote add origin (hhttps://the file name link)
+then to push the main branch //push (add from the local repository to )
+git push -u origin main
+git pull(remote to local)
+
+to add more branch in git hub
+then write command git branch "branch-name"
+git merge branch-name
+git branch branch name//then it will add both the branches
+git log //it will show all the details
